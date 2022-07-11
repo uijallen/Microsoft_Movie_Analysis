@@ -135,10 +135,11 @@ For any additional questions, please contact **Josh Allen at [joshua.allen630@gm
 Describe the structure of your repository and its contents, for example:
 
 ```
-├── README.md                       <- The top-level README for reviewers of this project
-├── Microsoft_Movie_Madness.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf     <- PDF version of project presentation
 ├── data                            <- Both sourced externally and generated from code
 └── images                          <- Images sourced externally 
   └── visualizations                <- Images generated via code
+├── .gitignore                      <- Indicates files for git to ignore during commits
+├── DS_Project_Presentation.pdf     <- PDF version of project presentation
+├── Microsoft_Movie_Madness.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── README.md                       <- The top-level README for reviewers of this project
 ```
