@@ -83,6 +83,7 @@ relationship between runtime and profit using a scatter plot to review this data
 #### Q3: What Is the Best Month to Release a Movie?
 
 For analyzing the best month for movie releases we first looked at which months were most popular for movie studios to release movies in using a bar chart to show the number of movies released each month in total in the dataset.  In addition to this, we then took a look at the profit by month in another bar chart to see if the data based on number of releases per month lined up with the median profits that were made in movies released in each month.  This analysis will help us recommend a suggested release timing to Microsoft for their new film.
+***
 
 ## Results
 
@@ -106,6 +107,7 @@ Our runtimes of all highly profitable films indicate runtimes of between 85 and 
 ![profitbymonth](./images/visualizations/release_profitbymonth.png)
 
 Finally as we consider the month of release for Microsoft's new movie, we can see a trend towards movies released in the summer having higher profits.  This trend seems to make sense as often families with kids out of school will see more movies during that time than when kids are in school.  In addition, the holiday months appear to also have higher median profits.
+***
 
 ## Conclusions
 
@@ -115,7 +117,7 @@ Based upon the above anaylysis I recommend Microsoft target the following criter
 - Aim for a runtime of **90 to 100 minutes** of the movie consistent with most other animated movies
 - Target a **release date for May, June, or July** which will align with the summer movie season
 
-With these analysis and answers in mind, Microsoft does need to take into consideration other variables that could aslo impact the performance of the movie.  If movie making was this simple, everyone would be involved in it.  The above analysis provides a great starting point for the Microsoft Movie Studio but the following items could still be considered to more fully solve the business problem and improve upon this work:
+With these analyses and answers in mind, Microsoft does need to take into consideration other variables that could aslo impact the performance of the movie.  If movie making was this simple, everyone would be involved in it.  The above analysis provides a great starting point for the Microsoft Movie Studio but the following items could still be considered to more fully solve the business problem and improve upon this work:
 
 - Consider the effects that actors/directors have on the success of a film
 - In today's environment research the difference in profitibility between streaming and theatrical releases
@@ -137,5 +139,6 @@ Describe the structure of your repository and its contents, for example:
 ├── Microsoft_Movie_Madness.ipynb   <- Narrative documentation of analysis in Jupyter notebook
 ├── DS_Project_Presentation.pdf     <- PDF version of project presentation
 ├── data                            <- Both sourced externally and generated from code
-└── images                          <- Both sourced externally and generated from code
+└── images                          <- Images sourced externally 
+  └── visualizations                <- Images generated via code
 ```
