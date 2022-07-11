@@ -86,6 +86,8 @@ For analyzing the best month for movie releases we first looked at which months 
 
 ## Results
 
+![moviesbygenre1](.images/visualizations/genre_nummoviesb4drop.png)
+![moviesbygenre2]('.images/visualizations/genre_nummoviesafterdrop.png')
 
 
 **TODELETE**
