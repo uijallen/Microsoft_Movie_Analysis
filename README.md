@@ -126,7 +126,7 @@ With these analyses and answers in mind, Microsoft does need to take into consid
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./Microsoft_Movie_Madness.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Microsoft_Movie_Madness.ipynb) or our [presentation](./presentation.pdf).
 
 For any additional questions, please contact **Josh Allen at [joshua.allen630@gmail.com](mailto:joshua.allen630@gmail.com)
 
