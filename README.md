@@ -86,32 +86,41 @@ For analyzing the best month for movie releases we first looked at which months 
 
 ## Results
 
-![moviesbygenre1](.images/visualizations/genre_nummoviesb4drop.png)
-![moviesbygenre2]('.images/visualizations/genre_nummoviesafterdrop.png')
+The exploratory analysis produces results in which I am confident will allow Microsoft to begin their movie studio venture.  These results should generalize fairly well to data beyond our dataset but keep in mind that there are factors that should be considered (actor/director choices, theatrical vs. streaming release, etc.) laid out in the conclusion below.  If the further analysis is performed on those data, I believe the results below will generalize well in conjunction with the other areas for research.
 
+![medianprofitbygenre](./images/visualizations/genre_profitbygenre.png)
+![medianroibygenre](./images/visualizations/genre_medianroi.png)
 
-**TODELETE**
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-************
-Here is an example of how to embed images from your sub-folder:
+From the above graphs we can see that while animated movies do not produce the highest median ROI, they do produce a fairly good median ROI of around 200% (tied for third with sci-fi).  This combined with the fact that their profits are the highest make animated movies a very good optioin.
 
-### Visual 1
-![graph1](./images/viz1.png)
+![budgetbygenre](./images/visualizations/genre_medianbudget.png)
+
+We can see above that the median budget for an animated movie is around the 87 millioin dollar mark and likely should be the targeted bugets
+
+![profitsbyruntime](./images/visualizations/runtime_profitsabove100.png)
+![animatedruntimes](./images/visualizations/runtime_animatedgenre.png)
+
+Our runtimes of all highly profitable films indicate runtimes of between 85 and 135 minutes for a majority of films.  As we dig more specifically into animated runtimes we see a trend towards the lower end of that with the inter-quartile range of animated movies falling between 90 and 100 minutes.  This is likely due to animated movies being targeted in most cases towards younger audiences with shorter attention spans.
+
+![releasesbymonth](./images/visualizations/release_allbymonth.png)
+![profitbymonth](./images/visualizations/release_profitbymonth.png)
+
+Finally as we consider the month of release for Microsoft's new movie, we can see a trend towards movies released in the summer having higher profits.  This trend seems to make sense as often families with kids out of school will see more movies during that time than when kids are in school.  In addition, the holiday months appear to also have higher median profits.
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+Based upon the above anaylysis I recommend Microsoft target the following criteria for their first foray into the movie industry:
 
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
+- Create an **animated movie** with around an **87 million USD budget**
+- Aim for a runtime of **90 to 100 minutes** of the movie consistent with most other animated movies
+- Target a **release date for May, June, or July** which will align with the summer movie season
+
+With these analysis and answers in mind, Microsoft does need to take into consideration other variables that could aslo impact the performance of the movie.  If movie making was this simple, everyone would be involved in it.  The above analysis provides a great starting point for the Microsoft Movie Studio but the following items could still be considered to more fully solve the business problem and improve upon this work:
+
+- Consider the effects that actors/directors have on the success of a film
+- In today's environment research the difference in profitibility between streaming and theatrical releases
+- Consider existing Microsoft IP to identify potential storylines and characters for the movie that already exist within the Microsoft universe and already have an pre-primed viewr base that could lead to a more successful film
+
 
 ## For More Information
 
